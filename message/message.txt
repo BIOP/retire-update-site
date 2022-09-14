@@ -3,16 +3,16 @@
 # It is accessed through a go epfl ch link (go.epfl.ch/biop-deprecated-update-site-message)
 # which allows to change the message over time if needed.
 
-The BIOP has deprecated the following update sites:
+The following update sites from the BIOP are not maintained anymore:
 * Operetta Importer | https://biop.epfl.ch/update-sites/operetta/
 * Fiji-EasyXT | https://biop.epfl.ch/Fiji-EasyXT/
-* ABBA | https://biop.epfl.ch/Fiji-ABBA/
-* ABBA (experimental) | https://biop.epfl.ch/Fiji-ABBA-Exp/
-* BigDataViewer-Playground | https://biop.epfl.ch/Fiji-Bdv-Playground/
+(BROKEN!)* ABBA | https://biop.epfl.ch/Fiji-ABBA/
+(BROKEN!)* ABBA (experimental) | https://biop.epfl.ch/Fiji-ABBA-Exp/
+(BROKEN!)* BigDataViewer-Playground | https://biop.epfl.ch/Fiji-Bdv-Playground/
 * BIOP-OMERO | https://biop.epfl.ch/Fiji-BIOP-OMERO/
-* BIOP-Dev | https://biop.epfl.ch/Fiji-Update-Dev/
+(BROKEN!)* BIOP-Dev | https://biop.epfl.ch/Fiji-Update-Dev/
 
-All functionalities are now merged into a single update site:
+All functionalities (ABBA, Warpy, etc.) are now merged into a single update site:
 * PTBIOP
 
 Please:
