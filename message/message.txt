@@ -1,0 +1,1 @@
+This is the file containing the message that will be displayed to Fiji users when they are using a deprecated/retired update site. It is accessed through a go epfl ch link (go.epfl.ch/biop-deprecated-update-site-message), which allows to change the message over time if needed.
