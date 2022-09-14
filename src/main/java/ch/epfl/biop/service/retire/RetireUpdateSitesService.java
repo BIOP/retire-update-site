@@ -13,6 +13,9 @@ import org.scijava.service.SciJavaService;
 import org.scijava.service.Service;
 import org.scijava.ui.UIService;
 
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.URL;
@@ -50,6 +53,7 @@ public class RetireUpdateSitesService extends AbstractService implements
             message = "";
             String inputLine;
             while ((inputLine = in.readLine()) != null) {
+                System.out.println(inputLine);
                 if (!inputLine.startsWith("#")) {
                     message += inputLine+"\n";
                 }
@@ -65,6 +69,16 @@ public class RetireUpdateSitesService extends AbstractService implements
             // try to fetch information from the web
             // if not, display a general message
             System.out.println(message);
+
+            JPanel panel = new JPanel();
+            JTextArea textArea = new JTextArea(message);
+            panel.add(textArea);
+
+            JFrame frame = new JFrame("You are using one or several deprecated update site(s).");
+            frame.add(panel);
+            frame.pack();
+            frame.setVisible(true);
+
         } else {
             System.out.println(message);
             logService.warn(message);

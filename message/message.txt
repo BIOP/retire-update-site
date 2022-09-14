@@ -12,7 +12,13 @@ The BIOP has deprecated the following update sites:
 * BIOP-OMERO | https://biop.epfl.ch/Fiji-BIOP-OMERO/
 * BIOP-Dev | https://biop.epfl.ch/Fiji-Update-Dev/
 
-All functionalities are now accessible through a single update site:
+All functionalities are now merged into a single update site:
 * PTBIOP
 
-Please uninstall all listed deprecated update sites, and this message on startup will disappear.
+Please:
+ - Uninstall all deprecated update sites.
+ - Close and restart Fiji
+ - Activate the PTBIOP update site only
+ - Close and restart Fiji
+
+ -> this startup message will disappear.
